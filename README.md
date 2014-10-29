@@ -25,7 +25,8 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Include to the index.php file  :
 
 ```php
-<?= \sersid\helper\AutoloadExample::widget(); ?>```
+require(__DIR__ . '/../basic/vendor/sersid/yii2-helper/helper.php');
+```
